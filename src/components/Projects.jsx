@@ -3,27 +3,27 @@ import { useState } from 'react'
 
 const projects = [
     {
-        id: 1, title: 'MoviesTMDB', description: 'React.js Movie App with TMDB API, Bootstrap, AOS and FontAwesome', image: '/src/assets/image1.PNG',
+        id: 1, title: 'MoviesTMDB', description: 'React.js Movie App with TMDB API, Bootstrap, AOS and FontAwesome', image: '/image1.PNG',
         github: 'https://github.com/Aldinn29/movie-app', demo: 'https://movie-app-by-aldin.netlify.app/#'
     },
     {
-        id: 2, title: 'Gemini Clone', description: 'React.JS Gemini App with Gemini API and Bootstrap', image: '/src/assets/image2.PNG',
+        id: 2, title: 'Gemini Clone', description: 'React.JS Gemini App with Gemini API and Bootstrap', image: '/image2.PNG',
         github: 'https://github.com/Aldinn29/gemini-clone-app', demo: 'https://gemini-app-by-aldin.netlify.app/'
     },
     {
-        id: 3, title: 'Weather App', description: 'React.JS Weather App with Weather API and Bootstrap', image: '/src/assets/image3.PNG',
+        id: 3, title: 'Weather App', description: 'React.JS Weather App with Weather API and Bootstrap', image: '/image3.PNG',
         github: 'https://github.com/Aldinn29/weather-app', demo: 'https://weather-app-by-aldin.netlify.app/'
     },
     {
-        id: 4, title: 'Quiz App', description: 'React.JS Quiz App with Bootstrap and JSON', image: '/src/assets/image4.PNG',
+        id: 4, title: 'Quiz App', description: 'React.JS Quiz App with Bootstrap and JSON', image: '/image4.PNG',
         github: 'https://github.com/Aldinn29/quizz-app', demo: 'https://quiz-app-by-aldin.netlify.app/'
     },
     {
-        id: 5, title: 'Nasa App', description: 'React.JS Nasa App with Nasa API, Bootstrap and LocalStorage', image: '/src/assets/image5.PNG',
+        id: 5, title: 'Nasa App', description: 'React.JS Nasa App with Nasa API, Bootstrap and LocalStorage', image: '/image5.PNG',
         github: 'https://github.com/Aldinn29/nasa-app', demo: 'https://nasa-app-by-aldin.netlify.app/'
     },
     {
-        id: 6, title: 'Text To Speech Converter', description: 'Text to Speech Converter App using JavaScript and the Web Speech API', image: '/src/assets/image6.PNG',
+        id: 6, title: 'Text To Speech Converter', description: 'Text to Speech Converter App using JavaScript and the Web Speech API', image: '/image6.PNG',
         github: 'https://github.com/Aldinn29/text-to-speech-converter', demo: 'https://texttospeach-app-by-aldin.netlify.app/'
     }
 ];

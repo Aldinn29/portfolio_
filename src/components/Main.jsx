@@ -4,7 +4,7 @@ export default function Main() {
     return (
         <section id='home' className='container-fluid text-light vh-100 d-flex justify-content-center align-items-center flex-column gap-3 border-bottom border-light'
             style={{ backgroundColor: 'black' }}>
-            <img src='./src/assets/photo.jpg' className='img-fluid rounded-circle mt-5 h-50 mb-2' />
+            <img src='/photo.jpg' className='img-fluid rounded-circle mt-5 h-50 mb-2' />
             <h1>I'm <span style={{
                 backgroundImage: 'linear-gradient(45deg, #00c6ff, #0072ff)',
                 WebkitBackgroundClip: 'text',

@@ -38,7 +38,7 @@ export default function Navbar() {
         <nav className='navbar navbar-expand-lg navbar-dark fixed-top border-bottom border-white' style={{ backgroundColor: 'black' }}>
             <div className='container-fluid px-5'>
                 <a className='navbar-brand px-2' href='#about' onClick={() => setActive('about')}>
-                    <img src='./src/assets/photo.jpg' style={{ width: '40px' }} className='rounded-circle me-2' /> Aldin Bišanović
+                    <img src='/photo.jpg' style={{ width: '40px' }} className='rounded-circle me-2' /> Aldin Bišanović
                 </a>
                 <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
                     <span className='navbar-toggler-icon'></span>

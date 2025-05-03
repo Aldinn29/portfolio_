@@ -5,8 +5,8 @@ export default function About() {
         <section id='about' className='container-fluid text-light vh-100 d-flex justify-content-center align-items-center flex-column gap-5 p-0 border-bottom border-light'
             style={{ backgroundColor: 'black' }}>
             <h1 className='mt-4'>About me</h1>
-            <div className='container-fluid d-flex p-0'>
-                <div className='d-flex w-50 justify-content-center'>
+            <div className='container-fluid d-flex flex-column flex-md-row align-items-center p-0'>
+                <div className='d-flex w-75 w-md-50 justify-content-center mb-4 mb-md-0'>
                     <img src='/photo.jpg' className='img-fluid rounded-circle' />
                 </div>
                 <div className='w-50 d-flex flex-column pe-5'>

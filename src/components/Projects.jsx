@@ -26,7 +26,7 @@ const projects = [
         id: 6, title: 'Text To Speech Converter', description: 'Text to Speech Converter App using JavaScript and the Web Speech API', image: '/image6.PNG',
         github: 'https://github.com/Aldinn29/text-to-speech-converter', demo: 'https://texttospeach-app-by-aldin.netlify.app/'
     }
-];
+]
 
 export default function Projects() {
     const [hoveredItem, setHoveredItem] = useState(null)

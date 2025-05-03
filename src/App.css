@@ -1,0 +1,15 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    width: 25%;
+}
+
+@media (max-width: 991.98px) {
+    .image {
+        width: 75%;
+    }
+}

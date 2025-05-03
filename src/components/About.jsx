@@ -2,14 +2,14 @@ import React from 'react'
 
 export default function About() {
     return (
-        <section id='about' className='container-fluid text-light vh-100 d-flex justify-content-center align-items-center flex-column gap-5 p-0 border-bottom border-light'
+        <section id='about' className='container-fluid text-light min-vh-100 d-flex justify-content-center align-items-center flex-column gap-5 p-0 border-bottom border-light py-3'
             style={{ backgroundColor: 'black' }}>
-            <h1 className='mt-4'>About me</h1>
-            <div className='container-fluid d-flex flex-column flex-md-row align-items-center p-0'>
-                <div className='d-flex w-75 w-md-50 justify-content-center mb-4 mb-md-0'>
+            <h1 className='mt-5 '>About me</h1>
+            <div className='row align-items-center px-5'>
+                <div className='col-12 col-lg-6 text-center'>
                     <img src='/photo.jpg' className='img-fluid rounded-circle' />
                 </div>
-                <div className='w-50 d-flex flex-column pe-5'>
+                <div className='col-12 col-lg-6 mt-2'>
                     <p>Hi, I'm <span className='fw-bold' style={{
                         backgroundImage: 'linear-gradient(45deg, #00c6ff, #0072ff)',
                         WebkitBackgroundClip: 'text',

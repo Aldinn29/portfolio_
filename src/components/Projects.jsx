@@ -32,7 +32,7 @@ export default function Projects() {
     const [hoveredItem, setHoveredItem] = useState(null)
 
     return (
-        <section id='projects' className='container-fluid text-light vh-100 d-flex justify-content-center align-items-center flex-column gap-3 border-bottom border-light'
+        <section id='projects' className='container-fluid text-light min-vh-100 d-flex justify-content-center align-items-center flex-column gap-3 border-bottom border-light py-3'
             style={{ backgroundColor: 'black' }}>
             <h1 className='mb-5'>My Projects</h1>
             <div className='container'>

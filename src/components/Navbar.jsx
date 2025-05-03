@@ -36,7 +36,7 @@ export default function Navbar() {
 
     return (
         <nav className='navbar navbar-expand-lg navbar-dark fixed-top border-bottom border-white' style={{ backgroundColor: 'black' }}>
-            <div className='container-fluid px-5'>
+            <div className='container-fluid'>
                 <a className='navbar-brand px-2' href='#about' onClick={() => setActive('about')}>
                     <img src='/photo.jpg' style={{ width: '40px' }} className='rounded-circle me-2' /> Aldin Bišanović
                 </a>
